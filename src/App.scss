@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@900&family=Montserrat:wght@300;500&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Color Palette */
+$green: #BDD950;
+$blue: #1F4F89;
+$text_color: #181818;
+
+/* Fonts */
+$text_font: 'Montserrat', sans-serif;
+$title_font: 'Mada', sans-serif;
+
+/* Navbar */
+
+.navbar-container{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  overflow: hidden;
+  box-shadow: 0 4px 2px -2px gray;
+  z-index: 9999;
+}
+
+.navbar-collapse{
+  position: absolute;
+  right: 5%;
+}
+
+.nav-link{
+  margin-right: 1.3rem;
+}
+
+.navbar-brand{
+  width: 15%;
+}
+.navbar-logo{
+  width: 80%;
+}
+
+
+  /* Landing */
+
+// Video
+
+.video-home-item{
+  width: 100%;
+  margin-top: 5rem;
+}
+
+// Sobre nosotros
+
+.SobreNosotros-landing{
+  display: flex;
+  align-items: center;
+}
+
+.SobreNosotros-landing-title{
+  width: 50%;
+  padding: 7rem 2rem 7rem 5rem;
+  color: $blue;
+  font-family: $title_font;
+  font-size: 3rem;
+  text-align: right;
+}
+
+.SobreNosotros-title-green{
+  color: $green;
+  font-family: $title_font;
+}
+
+.SobreNosotros-landing-description{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 7rem 5rem 7rem 2rem;
+  color: $text_color;
+  font-family: $text_font;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.SobreNosotros-landing-paragone{
+  margin-bottom: 1rem;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+// Carousel
+
+h3{
+  font-family: $title_font;
+  font-size: 3rem;
+}
+
+.carousel-description{
+  font-family: $text_font;
+  font-size: 1.5rem;
+}
+
+// Botón Saber Más
+
+.sabermas-button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: $blue;
+  border: none;
+}
+
+.sabermas-button:focus{
+  outline: none;
+}
+
+.sabermas-button:hover{
+  background-color: #133055;
+  cursor: pointer;
+}
+
+.sabermas-text{
+  color: white;
+  font-family: $title_font;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
+// Únete a ByTour
+
+.unete-container{
+  display: flex;
+}
+
+.unete-image{
+  width: 50%;
+  background-image: url("https://i.postimg.cc/k5Bm0FvJ/a43af-crea-tu-propia-agencia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.unete-description{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.unete-title{
+  padding: 5rem 3rem 3rem 4rem;
+  color: $blue;
+  font-family: $title_font;
+  font-size: 3rem;
+}
+
+.unete-text{
+  padding: 0 3rem 5rem 4rem;
+  font-family: $text_font;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+ul{
+  margin-top: 1rem;
+}
+
+//Unete button
+
+.unete-button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: $green;
+  border: none;
+}
+
+.unete-button:focus{
+  outline: none;
+}
+
+.unete-button:hover{
+  background-color: #7e9c05;
+  cursor: pointer;
+}
+
+// Tecnología Tecnoturis
+
+.tecnologiaTecnoturis-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.tecnologia-text{
+  padding: 0 3rem 1rem 4rem;
+  font-family: $text_font;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+// Franquicias
+
+.cuadro-imagen{
+  background-color: grey;
+  width: 100%;
+  height: 15rem;
+}
+
+// Contacto
+
+.contacto-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 3rem 3rem 3rem 4rem;
+  background-color: $green;
+  color: white;
+}
+
+.contacto-left{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.contacto-left > span{
+  margin-bottom: 1rem;
+  font-family: $text_font;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.contacto-left > h2{
+  font-size: 3rem;
+}
+
+.googleMaps{
+  border: none;
+  width: 40rem;
+  height: 25rem;
+}
+
+
+// Footer
+
+.footer{
+  background-color: $blue;
+  color: white;
+  padding: 3rem;
+}
+
+.footer_column{
+  font-family: $text_font;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.footer_column_div{
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  font-family: $title_font;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.socialMedia-logo{
+  width: 15%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.footer_column_div > span,
+.footer_column_div > a{
+  margin-bottom: 0.7rem;
+  color: white;
+  text-decoration: none;
+}
+
+

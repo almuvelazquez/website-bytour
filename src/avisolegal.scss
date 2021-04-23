@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@900&family=Montserrat:wght@300;500&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Color Palette */
+$green: #BDD950;
+$blue: #1F4F89;
+$text_color: #181818;
+
+/* Fonts */
+$text_font: 'Montserrat', sans-serif;
+$title_font: 'Mada', sans-serif;
+
+span,
+li{
+  font-family: $text_font;
+  color: $text_color;
+  font-weight: 300;
+  font-size: 1rem;  
+}
+
+.avisolegal-container{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+li{
+    margin-top: 1rem;
+}
+
+.avisolegal-listaprincipal > li{
+    font-weight: 500;
+}
+
+span{
+    margin-top: 1rem;
+}
+
+.avisolegal-title{
+    font-family: $title_font;
+    font-size: 3rem;
+    color: $blue;
+    margin-top: 9rem;
+}

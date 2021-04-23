@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@900&family=Montserrat:wght@300;500&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Color Palette */
+$green: #BDD950;
+$blue: #1F4F89;
+$text_color: #181818;
+
+/* Fonts */
+$text_font: 'Montserrat', sans-serif;
+$title_font: 'Mada', sans-serif;
+
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.bold-white{
+    font-weight: 500;
+    color: white;
+}
+
+.nuestratecnologiaexclusiva{
+    font-family: $title_font;
+    font-size: 4rem;
+    margin-bottom: 5%;
+    text-align: center;
+    color: $blue;
+}
+
+.container-fluid{
+    margin: 0;
+}
+
+.nuestratecnologiaexclusiva-image{
+    margin: 0;
+    padding: 0;
+}
+
+source,
+img{
+    width: 100%;
+}
+
+.nuestratecnologiaexclusiva-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.nuestratecnologiaexclusiva-description > h2{
+    font-family: $title_font;
+    font-size: 2rem;
+    color: $blue;
+    padding: 2rem 0 0 2rem;
+}
+
+.nuestratecnologiaexclusiva-description > span{
+    font-family: $text_font;
+    font-weight: 300;
+    font-size: 1rem;
+    color: $text_color;
+    padding: 0 1rem 0 2rem
+}
+
+.nuestratecnologiaexclusiva-unete-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(https://i.imgur.com/kIl4y6z.jpg);
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.nuestratecnologiaexclusiva-unete-container:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(189,217,80,0.9);
+}
+
+.nuestratecnologiaexclusiva-unete-title,
+.nuestratecnologiaexclusiva-unete-text{
+    position: relative;
+    color: white;
+}
+
+.nuestratecnologiaexclusiva-unete-title{
+    font-family: $title_font;
+    font-size: 3rem;
+    padding: 3rem 3rem 1rem 3rem;
+}
+
+.nuestratecnologiaexclusiva-unete-text{
+    font-family: $text_font;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem 1rem 3rem;
+}
+
+.nuestratecnologiaexclusiva-unete-button{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    width: 30%;
+    height: auto;
+    padding: 0.3rem;
+    font-family: $title_font;
+    font-size: 3rem;
+    background-color: $blue;
+    color: white;
+    position: relative;
+    left: 35%;
+    border: none;
+}
+
+.nuestratecnologiaexclusiva-unete-button:hover{
+    background-color: #133055;
+    cursor: pointer;
+  }
